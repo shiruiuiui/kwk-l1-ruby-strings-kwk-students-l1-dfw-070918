@@ -5,3 +5,5 @@ puts "What is your name?"
 name = gets.chomp
 puts "what is the party name?"
 party = gets.chomp
+puts "what day is the party?"
+date = gets.chomp
