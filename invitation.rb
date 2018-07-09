@@ -9,7 +9,15 @@ puts "what day is the party?"
 date = gets.chomp
 puts "when is the party?"
 time = gets.chomp
+puts "What is the RSVP date?"
+rsvp = gets.chomp
 puts "what is the hosts name?"
 time = gets.chomp
 
-puts ""
+puts "Dear #{name},
+
+You are cordially invited to the #{party} on #{date} at #{time}. Please RSVP no later than October 30.
+
+Sincerely,
+
+Harry Potter"
