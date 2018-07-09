@@ -7,3 +7,8 @@ puts "what is the party name?"
 party = gets.chomp
 puts "what day is the party?"
 date = gets.chomp
+puts "when is the party?"
+time = gets.chomp
+puts "what is the hosts name?"
+time = gets.chomp
+
