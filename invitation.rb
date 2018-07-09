@@ -12,7 +12,7 @@ time = gets.chomp
 puts "What is the RSVP date?"
 rsvp = gets.chomp
 puts "what is the hosts name?"
-host = gets.chomp
+host_name = gets.chomp
 
 puts "Dear #{guest_name},
 
@@ -20,4 +20,4 @@ You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSV
 
 Sincerely,
 
-#{host}"
+#{host_name}"
