@@ -12,3 +12,4 @@ time = gets.chomp
 puts "what is the hosts name?"
 time = gets.chomp
 
+puts ""
