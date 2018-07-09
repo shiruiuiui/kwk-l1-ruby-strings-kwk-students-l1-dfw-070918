@@ -4,7 +4,7 @@
 puts "Hi, you've been invited to a party! What is your name?"
 guest_name = gets.chomp
 puts "what is the party name?"
-party = gets.chomp
+party_name = gets.chomp
 puts "what day is the party?"
 date = gets.chomp
 puts "when is the party?"
@@ -16,7 +16,7 @@ host = gets.chomp
 
 puts "Dear #{guest_name},
 
-You are cordially invited to the #{party} on #{date} at #{time}. Please RSVP no later than #{rsvp}.
+You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than #{rsvp}.
 
 Sincerely,
 
